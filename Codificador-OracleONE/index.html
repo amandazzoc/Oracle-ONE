@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador - Challenge Oracle ONE</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/5073523fa9.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="button-mode" id="buttonMode">
+        <label class="ui-switch">
+          <input type="checkbox" />
+          <div class="slider">
+            <div class="circle"></div>
+          </div>
+        </label>
+      </div>
+    </header>
+    <section class="wrapper">
+      <section class="section-decrypted">
+        <textarea name="textarea" id="txtDecrypted" class="txt-decrypted" placeholder="Digite seu texto"></textarea>
+        <p><i class="fa-solid fa-circle-info fa-bounce" style="color: #495057; margin-right: 8px;"></i>Apenas letras minúsculas e sem acento.</p>
+        <div class="buttons">
+          <button class="btn-encrypt" id="btnEncrypt">Criptografar</button>
+          <button class="btn-decrypt" id="btnDecrypt">Descriptografar</button>
+        </div>
+      </section>
+      <section class="section-crypted">
+        <img src="img/searching.svg" class="img-searching" id="imgSearching" width="300"/>
+        <p class="title">Nenhuma mensagem encontrada</p>
+        <p class="description">Digite um texto que você deseja criptografar ou descriptografar.</p>
+      </section>
+    </section>
+    <footer>
+
+    </footer>
+  </body>
+</html>
